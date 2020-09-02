@@ -4,8 +4,9 @@ def hello_t(array)
   while i < array.length
     yield (array[i])
     i = i + 1
-  else puts "There's no block here."
   end
+else puts "There's no block here."
+end
   array
 end
 
