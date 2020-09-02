@@ -13,4 +13,4 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
   end
 end
 
-puts hello_t(["Tim", "Tom", "Jim"])
+print hello_t(["Tim", "Tom", "Jim"])
